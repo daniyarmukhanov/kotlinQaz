@@ -1,41 +1,45 @@
 @file:Suppress("UNUSED_PARAMETER")
 
-package lesson1.task1
+package lesson1
 
 import kotlin.math.sqrt
 
 /**
 Бүтін санның квадратын табу
  */
-fun sqr(x: Int): Double = TODO()
+fun sqr(x: Int) = x * x
 
 /**
 Бүтін емес санның квадратын табу
  */
-fun sqr(x: Double): Double = TODO()
+fun sqr(x: Double) = x * x
 
 /**
 Дискриминант шығару
  */
-fun discriminant(a: Double, b: Double, c: Double): Double = TODO()
+fun discriminant(a: Double, b: Double, c: Double) = sqr(b) - 4 * a * c
 
 /**
 Квадраттық теңдеудің бір жауабын табу
  */
-fun quadraticEquationRoot(a: Double, b: Double, c: Double): Double = TODO()
+fun quadraticEquationRoot(a: Double, b: Double, c: Double) =
+    (-b + sqrt(discriminant(a, b, c))) / (2 * a)
 
 /**
 Квадраттық теңдеудің екі жауабының көбейтіндісін табу
  */
 fun quadraticRootProduct(a: Double, b: Double, c: Double): Double {
-    TODO()
+    val sd = sqrt(discriminant(a, b, c))
+    val x1 = (-b + sd) / (2 * a)
+    val x2 = (-b - sd) / (2 * a)
+    return x1 * x2 // жауабы
 }
 
 /**
 Негізгі функция
  */
 fun main() {
-
+    println(sqr(5))
 }
 
 /**
