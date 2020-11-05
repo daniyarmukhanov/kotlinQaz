@@ -1,6 +1,6 @@
 @file:Suppress("UNUSED_PARAMETER")
 
-package lesson1
+package lesson1.task1
 
 import kotlin.math.sqrt
 
@@ -39,7 +39,7 @@ fun quadraticRootProduct(a: Double, b: Double, c: Double): Double {
 Негізгі функция
  */
 fun main() {
-    println(sqr(5))
+    //TEST BOLATIN JER
 }
 
 /**
@@ -69,7 +69,9 @@ fun angleInRadian(deg: Int, min: Int, sec: Int): Double {
  * Екі нүктенің координадатасы берілген, ара қашықтығын табыңыз (x1, y1) және (x2, y2).
  * Мысалы, (3, 0) және (0, 4) нүктесінің арасы 5-ке тең
  */
-fun trackLength(x1: Double, y1: Double, x2: Double, y2: Double): Double = TODO()
+fun trackLength(x1: Double, y1: Double, x2: Double, y2: Double): Double {
+    TODO()
+}
 
 /**
  * Орташа
@@ -77,7 +79,9 @@ fun trackLength(x1: Double, y1: Double, x2: Double, y2: Double): Double = TODO()
  * Инпут 100-ден үлкен кез-келген сан (мысалы, 3801).
  * Соңынан санағанда үшінші санды табу (мына мысалда 8).
  */
-fun thirdDigit(number: Int): Int = TODO()
+fun thirdDigit(number: Int): Int {
+    TODO()
+}
 
 /**
  * Орташа
@@ -86,7 +90,9 @@ fun thirdDigit(number: Int): Int = TODO()
  * Б қаласына тура сол күннің h2 сағат m2 минутында келді (мысалы в 13:01).
  * Қанша уақыт жүргенін минуттап есептеңіз (мына мысалда 216).
  */
-fun travelMinutes(hoursDepart: Int, minutesDepart: Int, hoursArrive: Int, minutesArrive: Int): Int = TODO()
+fun travelMinutes(hoursDepart: Int, minutesDepart: Int, hoursArrive: Int, minutesArrive: Int): Int {
+    TODO()
+}
 
 
 /**
