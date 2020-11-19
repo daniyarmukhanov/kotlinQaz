@@ -27,7 +27,7 @@ fun findDivisor(n: Int): Int {
     return 0
 }
 
-fun findGreatestCommonDivisor(n: Int, m: Int): Int {
+fun findGreatestCommonDivisor(n: Int, m: Int): Int { // мынау қате код
     var x1 = max(n ,m)
     var x2 = min(n, m)
     var result = 0
