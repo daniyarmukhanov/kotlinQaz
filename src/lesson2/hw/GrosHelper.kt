@@ -4,7 +4,7 @@ fun main(){
     println("Қолыңызға тиетін айлығыңыз қанша?")
     val a = readLine()
     if (a?.toIntOrNull() == null){
-        println("Тек санды берыныз!!!")
+        println("Тек санды берыныз!!!")//беріңіз
         return
     }
         val net = a.toInt()
