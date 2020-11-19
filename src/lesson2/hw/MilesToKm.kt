@@ -18,7 +18,7 @@ fun main() {
             if (a.toInt() == 28669) {
                 bunny()
             } else {
-                println("Тек 0 немесе 1 танданыз!!!")
+                println("Тек 0 немесе 1 танданыз!!!")//қазақша әріптер керек
                 return
             }
         }
@@ -38,7 +38,7 @@ fun milestokm(){
     println("+------------+------------+")
     println("|    миль    |  километр  |")
     println("+------------+------------+")
-    println("    $M           ${K.toInt()}")
+    println("    $M           ${K.toInt()}")//мына жерге не үшін toInt?
     println("+------------+------------+")
 }
 
@@ -54,7 +54,7 @@ fun kmtomiles(){
     println("+------------+------------+")
     println("|  километр  |    миль    |")
     println("+------------+------------+")
-    println("    $K           ${M.toInt()}")
+    println("    $K           ${M.toInt()}")//мына жерге не үшін toInt?
     println("+------------+------------+")
 }
 
@@ -64,5 +64,5 @@ fun bunny(){
     println("     (*.*)")
     println("E[:]||||||||[:]3")
     println("   ('')_('')")
-    println("ItIsAnEasterEgg")
+    println("ItIsAnEasterEgg")//Niiice. Респект за пасхалку и за оформление
 }
