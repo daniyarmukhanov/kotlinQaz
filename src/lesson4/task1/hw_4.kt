@@ -66,6 +66,4 @@ fun squares(list: List<Int>): List<Int> {
 fun buildSumExample(list: List<Int>) = list.joinToString(" + ", " ", postfix = " = ${list.sum()}")
 
 
-fun average(list: List<Int>): Double {
-    return (list.sum().toDouble() / list.size)
-}
+fun average(list: List<Int>) = list.sum().toDouble() / list.size
